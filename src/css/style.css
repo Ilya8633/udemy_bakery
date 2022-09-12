@@ -1,0 +1,20 @@
+.div {
+    background-color: red;
+    width: 600px;
+    height: 200px;
+}
+.div_insidefirstdiv{
+    background-color: gray;
+    width: 100px;
+    height: 100px;
+}
+.div_two {
+    background-color: blue;
+    width: 300px;
+    height: 400px;
+}
+.insidetwo {
+    background-color: gray;
+    width: 100px;
+    height: 250px;
+}
