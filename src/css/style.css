@@ -1,20 +1,36 @@
-.div {
-    background-color: red;
-    width: 600px;
-    height: 200px;
+body{
+    background-color: #ffe2b0;
 }
-.div_insidefirstdiv{
-    background-color: gray;
-    width: 100px;
-    height: 100px;
+
+.logo {
+   text-align: center;
+   margin-bottom: 20px;
 }
-.div_two {
-    background-color: blue;
-    width: 300px;
-    height: 400px;
+
+nav{
+margin-bottom: 20px;
 }
-.insidetwo {
-    background-color: gray;
-    width: 100px;
-    height: 250px;
+
+.list {
+ text-align: center;   
+ list-style-type: none;
+ padding: 0px;
 }
+
+.link_first {
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    
+}
+
+li{
+    display: inline;
+    margin-right: 100px;
+}
+li:last-child{
+    margin-right: 0px;
+}
+
