@@ -2,6 +2,13 @@
     box-sizing: border-box;
 }
 
+
+@font-face {
+    font-family: 'Roboto';
+    src: local('Roboto');
+    src: url(../fonts/Roboto-Regular.ttf);
+}
+
 body{
     background-color: #ffe2b0;
 }
@@ -153,4 +160,8 @@ hr{
 
 footer{
     height: 80px;
+}
+
+h1{
+    font-family: 'Roboto', sans-serif;
 }
