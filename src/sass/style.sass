@@ -1,5 +1,18 @@
-h1
-    color: blue
+@import "resets.scss"
+@import "normalizez.scss"
 
-.text
-    color: red
+$button-color: #F28B64
+@mixin box
+    width: 400px
+    height: 400px
+    background-color: green
+    
+    
+.block
+    @include box
+    &__text
+        color: $button-color
+
+.block-2
+    margin-top: 20px
+    @include box 
