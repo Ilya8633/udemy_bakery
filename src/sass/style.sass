@@ -1,18 +1,29 @@
-@import "resets.scss"
 @import "normalizez.scss"
+@import "resets.scss"
 
-$button-color: #F28B64
-@mixin box
-    width: 400px
-    height: 400px
-    background-color: green
+.container
+    max-width: 1140px
+    margin: 0 auto
+.main-section
+    height: 800px
+    background: #EFEFEF
+    padding-top: 16px
+    &__nav-container
+        display: flex
+        flex-direction: row
+        justify-content: space-between
+        height: 69px
+        align-items: center
+
+
+.nav-menu
+    &__list
+        display: flex
+        flex-direction: row
+    &__list-item
+        margin-right: 64px
+        font-size: 18px
+        &:last-child
+            margin-right: 0px
     
     
-.block
-    @include box
-    &__text
-        color: $button-color
-
-.block-2
-    margin-top: 20px
-    @include box 
