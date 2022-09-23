@@ -4,6 +4,25 @@
 *
     box-sizing: border-box
 
+
+
+@font-face 
+    font-family: "MontserratT"
+    src: url('../fonts/Montserrat-Regular.ttf')
+    font-weight: regular
+    font-style: normal
+
+
+@font-face 
+    font-family: "MontserratT"
+    src: url('../fonts/Montserrat-SemiBold.ttf')
+    font-weight: bold
+    font-style: normal
+
+html
+    font-family: "MontserratT"
+    font-weight: regular
+
 $color-blue: #5290EA
 $color-orange: #F28B64
 
@@ -18,6 +37,7 @@ $color-orange: #F28B64
     overflow: hidden
     position: relative
     &__nav-container
+        font-weight: bold
         display: flex
         flex-direction: row
         justify-content: space-between
@@ -47,6 +67,10 @@ $color-orange: #F28B64
         font-size: 18px
         &:last-child
             margin-right: 0px
+        a
+            text-decoration: none
+            color: black
+
     
 .left-wrapper
     position: relative
@@ -123,6 +147,7 @@ $color-orange: #F28B64
             font-size: 21px
         
 .title
+    font-weight: bold
     font-size: 72px
     position: relative
     &__hr
@@ -137,6 +162,7 @@ $color-orange: #F28B64
         
 
 .buttons
+    font-weight: bold
     display: inline-flex
     &__main-btn
         margin-right: 32px
@@ -225,6 +251,7 @@ $color-orange: #F28B64
     &__img
         height: 335px
     &__text
+        font-weight: bold
         width: 280px
         font-size: 36px
         text-align: center
@@ -247,6 +274,7 @@ $color-orange: #F28B64
     &__text
         font-size: 18px
         span
+            font-weight: bold
             font-size: 48px
 
 
@@ -288,3 +316,16 @@ $color-orange: #F28B64
 
 .title__hr_top
     bottom: 75px
+
+.footer
+    &__img
+        position: absolute
+        left: -250px
+        bottom: 0px
+    &__container
+        min-height: 272px
+        display: flex
+        align-items: center
+        justify-content: flex-end
+    &__title
+        margin-bottom: 20px
