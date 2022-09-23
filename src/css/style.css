@@ -402,6 +402,7 @@ table {
 .container {
   max-width: 1140px;
   margin: 0 auto;
+  position: relative;
 }
 
 .main-section {
@@ -742,4 +743,60 @@ table {
 }
 .icons-item__text span {
   font-size: 48px;
+}
+
+.third-section {
+  position: relative;
+  min-height: 640px;
+  background: #F0F0F0;
+  overflow: hidden;
+  z-index: 0;
+}
+.third-section__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-left: 200px;
+  padding-top: 46px;
+}
+.third-section__right-wrapper {
+  max-width: 480px;
+}
+.third-section__right-title {
+  margin-bottom: 20px;
+}
+.third-section__text {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+.third-section__first-elipse {
+  position: absolute;
+  top: 140px;
+  left: 110px;
+  z-index: -1;
+}
+.third-section__figure {
+  position: absolute;
+  top: 249px;
+  left: 15px;
+  z-index: -1;
+}
+.third-section__second-elipse {
+  position: absolute;
+  right: -120px;
+  top: -120px;
+}
+
+.title__hr_top {
+  bottom: 75px;
 }
